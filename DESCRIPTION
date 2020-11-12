@@ -1,17 +1,18 @@
 Type: Compendium
-Package: Your compendium name
-Title: What the Package Does (One Line, Title Case)
+Package: gis_test
+Title: test
 Version: 0.0.1
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Ann",
+           family = "H",
            role = c("aut", "cre"),
            email = "first.last@example.com")
-Description: Your compendium description
+Description: gis basic binder
 License: What license it uses
 Depends: 
     holepunch,
-    remotes
+    remotes,
+    tidyverse
 Remotes: 
     karthik/holepunch
 Encoding: UTF-8
