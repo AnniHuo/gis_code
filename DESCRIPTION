@@ -1,10 +1,10 @@
 Type: Compendium
 Package: gis_test
-Title: test
+Title: What the Package Does (One Line, Title Case)
 Version: 0.0.1
 Authors@R: 
-    person(given = "Ann",
-           family = "H",
+    person(given = "First",
+           family = "Last",
            role = c("aut", "cre"),
            email = "first.last@example.com")
 Description: gis basic binder
