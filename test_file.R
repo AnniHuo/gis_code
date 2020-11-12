@@ -16,9 +16,16 @@ t <- 2
 library(remotes)
 remotes::install_github("karthik/holepunch")
 library(holepunch)
-write_compendium_description(package = "Your compendium name", 
-                             description = "Your compendium description")
-write_dockerfile(maintainer = "your_name") 
-generate_badge() 
+write_compendium_description(package = "gis_test", 
+                             description = "gis basic binder")
+write_dockerfile(maintainer = "Ann",
+                 branch = "main",
+                 install_github = FALSE) 
+generate_badge(path = ".",
+               branch = "main",
+               hub = "mybinder.org",
+               urlpath = "rstudio") 
 
-build_binder()
+build_binder(path = ".",
+             hub = "mybinder.org",
+             urlpath = "rstudio")
